@@ -1,0 +1,11 @@
+{
+  "name": "@yangss/eslint-config-monorepo",
+  "private": true,
+  "author": {
+    "name": "Nicholas Yang",
+    "email": "yss_2016@outlook.com"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
