@@ -1,6 +1,9 @@
 {
   "name": "@yangss/eslint-config-monorepo",
   "private": true,
+  "scripts": {
+    "ver": "npx lerna version"
+  },
   "author": {
     "name": "Nicholas Yang",
     "email": "yss_2016@outlook.com"

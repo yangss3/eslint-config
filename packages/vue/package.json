@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Nicholas Yang",
+    "email": "yss_2016@outlook.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@yangss/eslint-config-ts": "^1.0.0",
+    "eslint-plugin-vue": "^7.9.0"
+  }
 }

@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Nicholas Yang",
+    "email": "yss_2016@outlook.com"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "typescript": ">=4.2.2"
+  },
+  "dependencies": {
+    "@yangss/eslint-config-basic": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0"
+  }
 }
