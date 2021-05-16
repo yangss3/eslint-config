@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    "no-var": "error"
+    'no-var': 'error',
+    'no-multiple-empty-lines': ['error', { max: 2 }]
   }
 }
