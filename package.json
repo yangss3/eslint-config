@@ -2,7 +2,7 @@
   "name": "@yangss/eslint-config-monorepo",
   "private": true,
   "scripts": {
-    "ver": "npx lerna version"
+    "pub": "npx lerna publish"
   },
   "author": {
     "name": "Nicholas Yang",
