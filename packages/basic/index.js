@@ -15,5 +15,6 @@ module.exports = {
   rules: {
     'no-var': 'error',
     'no-multiple-empty-lines': ['error', { max: 2 }]
-  }
+  },
+  ignorePatterns: ['dist/*']
 }
