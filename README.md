@@ -12,7 +12,7 @@ npm install -D @yangss/eslint-config-vue
 
 .eslintrc.(js | json)
 
-```json
+```js
 {
   "extends": [
     "@yangss/eslint-config-basic",
