@@ -2,7 +2,8 @@
   "name": "@yangss/eslint-config-monorepo",
   "private": true,
   "scripts": {
-    "pub": "npx lerna publish"
+    "pub": "npx lerna publish",
+    "pub-git": "npx lerna publish from-git"
   },
   "author": {
     "name": "Nicholas Yang",
