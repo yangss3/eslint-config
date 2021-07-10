@@ -4,7 +4,7 @@
   "scripts": {
     "pub": "npx lerna publish",
     "pub-git": "npx lerna publish from-git",
-    "pub-pck": "npx lerna publish from-package"
+    "pub-pkg": "npx lerna publish from-package"
   },
   "author": {
     "name": "Nicholas Yang",
