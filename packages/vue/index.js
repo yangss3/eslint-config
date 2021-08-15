@@ -12,6 +12,12 @@ module.exports = {
       }
     }
   ],
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly'
+  },
   rules: {
     'vue/require-default-prop': 'off',
     'vue/max-attributes-per-line': ['error', { 'singleline': 3 }]
