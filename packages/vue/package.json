@@ -17,6 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "@yangss/eslint-config-ts": "^0.1.4",
-    "eslint-plugin-vue": "^7.16.0"
+    "eslint-plugin-vue": "^7.18.0"
   }
 }
