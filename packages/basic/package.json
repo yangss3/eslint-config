@@ -16,12 +16,6 @@
   },
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">=7.26.0"
-  },
-  "dependencies": {
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint": ">=8.7.0"
   }
 }
