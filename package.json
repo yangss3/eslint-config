@@ -2,7 +2,7 @@
   "name": "@yangss/eslint-config-monorepo",
   "private": true,
   "scripts": {
-    "release": "bumpp packages/*/package.json --tag --push && pnpm -r publish --no-git-checks"
+    "release": "bumpp packages/*/package.json --tag --push && pnpm -r publish"
   },
   "author": {
     "name": "Nicholas Yang",
