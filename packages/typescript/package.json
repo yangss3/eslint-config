@@ -21,6 +21,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
-    "@yangss/eslint-config-basic": "workspace:*"
+    "@yangss/eslint-config-basic": "workspace:../basic"
   }
 }
