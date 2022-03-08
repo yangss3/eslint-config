@@ -1,7 +1,7 @@
 {
   "name": "@yangss/eslint-config-vue",
-  "version": "0.1.10",
-  "description": "",
+  "version": "0.2.0",
+  "description": "ESLint configuration for Vue3",
   "main": "index.js",
   "files": [
     "index.js"
@@ -16,7 +16,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@yangss/eslint-config-ts": "^0.1.10",
-    "eslint-plugin-vue": "^8.3.0"
+    "@yangss/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^8.5.0"
   }
 }
