@@ -2,15 +2,13 @@
   "name": "@yangss/eslint-config-monorepo",
   "private": true,
   "scripts": {
-    "pub": "npx lerna publish",
-    "pub-git": "npx lerna publish from-git",
-    "pub-pkg": "npx lerna publish from-package"
+    "release": "bumpp packages/*/package.json --tag --push"
   },
   "author": {
     "name": "Nicholas Yang",
     "email": "yss_2016@outlook.com"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "bumpp": "^7.1.1"
   }
 }
