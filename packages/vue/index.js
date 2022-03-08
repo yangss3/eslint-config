@@ -12,11 +12,8 @@ module.exports = {
       }
     }
   ],
-  globals: {
-    defineProps: 'readonly',
-    defineEmits: 'readonly',
-    defineExpose: 'readonly',
-    withDefaults: 'readonly'
+  env: {
+    'vue/setup-compiler-macros': true
   },
   rules: {
     'vue/require-default-prop': 'off',
