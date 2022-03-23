@@ -1,6 +1,6 @@
 {
   "name": "@yangss/eslint-config-vue",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "ESLint configuration for Vue3",
   "main": "index.js",
   "files": [
