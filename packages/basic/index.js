@@ -35,8 +35,7 @@ module.exports = {
     'key-spacing': ['error', {
       beforeColon: false,
       afterColon: true,
-      mode: 'strict',
-      align: 'value',
+      mode: 'strict'
     }],
     'max-statements-per-line': ['error', { 'max': 1 }],
     'multiline-ternary': ['error', 'always-multiline'],
