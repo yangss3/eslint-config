@@ -42,7 +42,7 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-trailing-spaces': 'error',
     'no-whitespace-before-property': 'error',
-    'eslint nonblock-statement-body-position': ['error', 'below'],
+    'nonblock-statement-body-position': ['error', 'below'],
     'object-curly-newline': ['error', {
       multiline: true,
       consistent: true
