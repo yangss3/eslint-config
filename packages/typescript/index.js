@@ -27,7 +27,7 @@ module.exports = {
     ],
     '@typescript-eslint/consistent-type-imports': ['error', {
       'prefer': 'type-imports',
-      'disallowTypeAnnotations': true,
+      'disallowTypeAnnotations': false,
     }],
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': ['error'],

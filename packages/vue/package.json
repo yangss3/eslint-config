@@ -17,6 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "@yangss/eslint-config-ts": "workspace:../typescript",
-    "eslint-plugin-vue": "^8.5.0"
+    "eslint-plugin-vue": "^8.6.0"
   }
 }
