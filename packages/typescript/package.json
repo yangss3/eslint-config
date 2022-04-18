@@ -1,6 +1,6 @@
 {
   "name": "@yangss/eslint-config-ts",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "ESLint configuration for TS",
   "main": "index.js",
   "files": [
