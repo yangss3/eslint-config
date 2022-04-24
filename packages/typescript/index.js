@@ -21,10 +21,9 @@ module.exports = {
     '@typescript-eslint/comma-spacing': ['error'],
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/consistent-type-assertions': ['error', {
-        'assertionStyle': 'as',
-        'objectLiteralTypeAssertions': 'allow'
-      }
-    ],
+      'assertionStyle': 'as',
+      'objectLiteralTypeAssertions': 'allow'
+    }],
     '@typescript-eslint/consistent-type-imports': ['error', {
       'prefer': 'type-imports',
       'disallowTypeAnnotations': false,

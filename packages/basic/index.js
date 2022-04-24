@@ -51,7 +51,11 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     'rest-spread-spacing': ['error', 'never'],
     'space-before-blocks': ['error', 'always'],
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArray": "always"
+    }],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
