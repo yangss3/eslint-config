@@ -54,7 +54,7 @@ module.exports = {
     'space-before-function-paren': ['error', {
       "anonymous": "always",
       "named": "never",
-      "asyncArray": "always"
+      "asyncArrow": "always"
     }],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
