@@ -55,6 +55,17 @@ module.exports = {
     '@typescript-eslint/space-before-blocks': ['error', 'always'],
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': ['error', { 'int32Hint': false }],
-    '@typescript-eslint/type-annotation-spacing': ['error', { 'before': false, 'after': true }]
+    "@typescript-eslint/type-annotation-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true,
+        "overrides": {
+          "arrow": {
+            "before": true
+          }
+        }
+      }
+    ]
   }
 }

@@ -12,9 +12,6 @@ module.exports = {
       }
     }
   ],
-  env: {
-    'vue/setup-compiler-macros': true
-  },
   rules: {
     'vue/require-default-prop': 'off',
     'vue/max-attributes-per-line': ['error', { 'singleline': 3 }]
