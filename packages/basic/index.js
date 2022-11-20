@@ -42,7 +42,11 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-trailing-spaces': 'error',
     'no-whitespace-before-property': 'error',
-    'nonblock-statement-body-position': ['error', 'below'],
+    "nonblock-statement-body-position": [
+      "error",
+      "below",
+      { "overrides": { "if": "any", "else": "any" } }
+    ],
     'object-curly-newline': ['error', {
       multiline: true,
       consistent: true
