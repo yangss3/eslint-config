@@ -1,6 +1,6 @@
 {
   "name": "@yangss/eslint-config-basic",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "ESLint configuration for JS",
   "main": "index.js",
   "files": [
